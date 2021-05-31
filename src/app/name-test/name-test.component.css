@@ -1,0 +1,47 @@
+.d {
+  background-color: burlywood;
+  margin: 8px;
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  visibility: hidden;
+}
+
+.showName {
+  visibility: visible;
+}
+
+.hideName {
+  visibility: hidden;
+}
+
+input {
+  margin: 24px;
+  width: 200px;
+  height: 20px;
+}
+
+.s {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.s > * {
+  width: 80%;
+  height: 80%;
+  background-color: coral;
+  margin: 8px;
+  padding: 8px;
+  box-shadow: 3px 3px rgb(228, 89, 38);
+}

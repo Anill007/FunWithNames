@@ -1,0 +1,22 @@
+<div class="d">
+    <input type="text" #nameData >
+    <button (click)="getData(nameData.value)">ENTER</button>
+    <h2 [ngClass]="nameStatus ? 'showName' : 'hideName'">{{myName}}</h2>
+    <div class="s">
+        <div class="s1">
+            STRENGTHS
+            <ul>
+                <li *ngFor="let strength of s;">
+                     {{strength}}
+                </li>
+            </ul>
+        </div>
+        <div class="s2">WEAKNESS
+            <ul>
+                <li *ngFor="let weakness of w;">
+                    {{weakness}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
